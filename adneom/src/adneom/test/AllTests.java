@@ -10,6 +10,7 @@ import org.junit.runners.Suite.SuiteClasses;
  * @author Mouad Tahiri
  * @generated
  */
+
 @RunWith(Suite.class)
 @SuiteClasses({ TestLastElement.class, TestSize.class })
 

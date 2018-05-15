@@ -10,6 +10,7 @@ import java.util.List;
  * @author Mouad Tahiri
  */
 public class ADNEOM {
+	
    public static void main(String[] args) {        
    // here is an exemple to print the sub-lists to the console
         ADNEOM adneom = new ADNEOM();
@@ -28,8 +29,7 @@ public class ADNEOM {
             }
             System.out.println("]\n");
         }
-    }
-  
+    } 
     public List<List<Integer>> partition(List<Integer> list , int size){
         List<List<Integer>> result = new ArrayList<>();        
         for(int i=0; i<list.size();i=i+size){

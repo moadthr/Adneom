@@ -15,6 +15,7 @@ import adneom.main.ADNEOM;
  *
  * @author Mouad Tahiri
  */
+
 public class TestSize {    
     @Test
     public void test() {
